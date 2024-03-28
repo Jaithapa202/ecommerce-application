@@ -2,7 +2,6 @@
 # sudo yum install git -y
 sudo apt update -y
 sudo apt install git
-chmod 600 eks.pem
 
 if [ -d "major-project" ] ;then
     cd major-project 
