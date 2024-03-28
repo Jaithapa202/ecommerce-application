@@ -10,7 +10,7 @@ pipeline {
         stage('Build Docker Images') {
             steps {
 
-                sh 'ansible-playbook -i ansible/hosts ansible/playbook_configuration_master.yml'
+                sh 'sudo ansible-playbook -i ansible/hosts ansible/playbook_configuration_master.yml'
             }   
         }
         stage('Testing') {
