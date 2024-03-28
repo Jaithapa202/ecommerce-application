@@ -7,4 +7,4 @@
 54.165.209.40
 
 [all:vars]
-ansible_user=root
+ansible_user=ubuntu
