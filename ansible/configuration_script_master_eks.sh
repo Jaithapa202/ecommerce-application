@@ -2,6 +2,7 @@
 # sudo yum install git -y
 sudo apt update -y
 sudo apt install git
+chmod 600 eks.pem
 
 if [ -d "major-project" ] ;then
     cd major-project 
@@ -12,5 +13,5 @@ git clone https://github.com/Jaithapa202/ecommerce-application.git
 
 fi
 cd major-project
-chmod 777 ./docker.sh
+chmod +x ./docker.sh
 ./docker.sh 
