@@ -3,7 +3,7 @@
 sudo apt update -y
 sudo apt install git
 
-if [ -d "major-project" ] ;then
+if [ -d "ecommerce-application" ] ;then
     cd major-project 
     git pull
 else
@@ -11,6 +11,6 @@ else
 git clone https://github.com/Jaithapa202/ecommerce-application.git
 
 fi
-cd major-project
-chmod +x ./docker.sh
+cd ecommerce-application
+chmod +x ./ansible/docker.sh
 ./docker.sh 
