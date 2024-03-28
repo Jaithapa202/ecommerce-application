@@ -7,4 +7,4 @@
 54.165.209.40
 
 [all:vars]
-ansible_user=ec2-user
+ansible_user=root
