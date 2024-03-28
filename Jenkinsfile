@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('SCM Checkout') {
             steps{
-                git url:'https://github.com/javvajiyashwanth/major-project.git', branch:'master'
+                git url:'https://github.com/Jaithapa202/ecommerce-application.git', branch:'master'
             }
         }        
         stage('Build Docker Images') {
