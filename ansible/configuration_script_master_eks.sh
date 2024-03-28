@@ -4,7 +4,7 @@ sudo apt update -y
 sudo apt install git
 
 if [ -d "ecommerce-application" ] ;then
-    cd major-project 
+    cd ecommerce-application 
     git pull
 else
 
