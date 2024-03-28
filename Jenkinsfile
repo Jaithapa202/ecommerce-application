@@ -11,6 +11,7 @@ pipeline {
             steps {
 
                 sh 'ansible-playbook -i ansible/hosts ansible/playbook_configuration_master.yml'
+                sh 'chmod 600 eks.pem'
             }   
         }
         stage('Testing') {
