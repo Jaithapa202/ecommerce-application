@@ -6,7 +6,7 @@ if [ -d "major-project" ] ;then
     git pull
 else
 
-git clone https://github.com/javvajiyashwanth/major-project.git
+git clone https://github.com/Jaithapa202/ecommerce-application.git
 
 fi
 cd major-project
