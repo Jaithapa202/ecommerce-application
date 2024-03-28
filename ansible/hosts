@@ -1,5 +1,5 @@
 [master]
-ec2-instance ansible_ssh_host=43.205.103.42 ansible_ssh_user=ec2-user ansible_ssh_private_key_file=ec2-instance.pem
+ec2-instance ansible_ssh_host=43.205.103.42 ansible_ssh_user=ec2-user ansible_ssh_private_key_file=/var/lib/jenkins/.ssh/eksctl_instance.pem
 
 
 [worker]
